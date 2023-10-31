@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+body{
+    background: #F8F7FC;
+    font-family: 'Lufga', sans-serif;
+    box-sizing: border-box;
+    font-size:16px;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width:100%;
+}
+.container{
+    max-width:1370px;
+}
+.gap{
+    gap:80px;
+}
+.gap20{
+    gap:20px;
+}
+.heading{
+    font-size: 24px;
+}
+.background{
+    background-image: url(./images/background.avif);
+    overflow: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rengow{
+    margin:300px 100px;
+    font-size:26px;
+    color:#036;
+}
+.ui{
+    background-image: url(./images/ui\ ux.jpg);
+    /* background-size: cover; */
+    background-position: center;
+    flex-basis: 23.65%;
+}
+.web{
+    background-image: url(./images/web.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-basis: 23.65%;
+}
+.test{
+    background-image: url(./images/testing.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-basis: 23.65%;
+}
+.host{
+    background-image: url(./images/webhosting.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-basis: 23.65%;
+}
+.card-title{
+    margin-top:200px;
+    background-color: #fff;
+    padding: 10px 0px;
+}
+.wedo{
+    font-size: 24px;;
+}
+.basis{
+    flex-basis: 49%;
+}
+@media (max-width:500px){
+    .gap{
+        gap:20px
+    }
+    .web, .ui, .test, .host{
+        flex-basis: 100%;
+    }
+    .basis{
+        flex-basis: 100%;
+    }
+}
+@media (min-width: 501px) and (max-width: 767px){
+    .web, .ui, .test, .host{
+        flex-basis: 48%;
+    }
+    .basis{
+        flex-basis: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .web, .ui, .test, .host{
+        flex-basis: 48%;
+    }
+    .basis{
+        flex-basis: 48%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1023px){
+    .web, .ui, .test, .host{
+        flex-basis: 48%;
+    }
+    .basis{
+        flex-basis: 48%;
+    }
+}
